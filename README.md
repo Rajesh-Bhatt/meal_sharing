@@ -30,12 +30,21 @@ Go to [localhost:3000](http://localhost:3000) in your browser, and you're all se
 
 ## Features and functionality:
 **Logo**: Represents the logo named ‘food’ for the restaurant.
+
 **Name**: Shows the name of the Restaurant with namste emoji “Namste Nepal Restaurant”
+
 **Home Menu**: Displays 3 top meals with buttons for reservation.
+
 **Meals Menu**: Shows all the meals available in the restaurant.
+
 **About Us Menu**: It shows our mission, how it works and our story in sections.
+
 **See All Meals Button**: A page with all available meals, where you can view more details, reserve a meal, and leave a review.
+
 **Search & Sort function**: Search for meals by title, price and sort them to your preference (ascending, descending).
+
 **Reservations & Reviews**: You can reserve meals if spots available and leave review feedback as well.
+
 **Footer**: Shows the copyright text and the footer links.
+
 **Clarity in Design**: Simple and effective.
