@@ -1,0 +1,111 @@
+.meal-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 3rem;
+  margin: 30px 150px;
+  position: relative;
+  width: 80%;
+}
+
+.meals {
+  text-align: center;
+}
+.meals-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 16px;
+  padding: 20px;
+}
+
+.controls {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.controls input,
+.controls button,
+.controls select {
+  width: 200px;
+  padding: 5px;
+}
+
+.controls button {
+  cursor: pointer; /* Add pointer cursor for button */
+}
+
+.controls {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-betweecen; /* Space between left and right groups */
+  gap: 20px; /* Adjusts spacing between elements */
+  margin: 20px auto;
+  padding: 0 50px;
+}
+
+.controls-left,
+.controls-right {
+  display: flex;
+  gap: 10px; /* Spacing between controls within each group */
+}
+
+/* Style for the section containing the controls */
+.section {
+  display: block;
+  flex-direction: column;
+  padding-right: 200px;
+  padding-left: 120px;
+  margin-bottom: 20px; 
+}
+
+/* Style for the controls container */
+.controls {
+  display: flex;
+  justify-content: space-between; /* Aligns controls to the left and right */
+  align-items: center; /* Vertically center the controls */
+  gap: 20px; /* Adds space between left and right controls */
+}
+
+/* Left controls (search input and button) */
+.controls-left {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Adds space between the input and button */
+}
+
+/* Right controls (sorting select) */
+.controls-right {
+  display: flex;
+  align-items: center;
+}
+
+/* Style for input and button */
+.controls-left input {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.controls-left button {
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+.controls-left button:hover {
+  background-color: #0056b3;
+}
+
+/* Style for the select element */
+.controls-right select {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
